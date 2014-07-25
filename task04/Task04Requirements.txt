@@ -138,7 +138,19 @@ gulp.task('watch', function() {
 
 gulp.task('default', ['less', 'js', 'coffee', 'watch']);
 
+4) Watch the presentations for LESS and CoffeeScript
 
+LESS 
+Website
+http://lesscss.org/
+presentation
+https://speakerdeck.com/bermonpainter/css-pre-processors-stylus-less-and-sass
+
+CoffeeScript
+Website
+http://coffeescript.org/
+Presentation
+https://speakerdeck.com/zdennis/intro-to-coffeescript
 
 	
 			
