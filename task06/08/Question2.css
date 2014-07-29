@@ -1,0 +1,5 @@
+@-moz-document url-prefix() 
+{ 
+        #inner_page_right #inner_right_fifth 
+        { padding:14px 0;} 
+}

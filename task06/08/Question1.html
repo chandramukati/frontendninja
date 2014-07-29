@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>precedence/cascading rules</title>
+  <link rel="stylesheet" href="Question1.css" >
+</head>
+<body>
+<h1 style="font-color:red"></h1>
+<!--this is the default browsers  css applied for css -->
+<span>How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</span>
+<!--Global css applied for all p element -->
+<p>How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<!--local css applied for only one below element -->
+<p style="color:blue">How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<!--id selector have more precedence than glow css  -->
+<p id="idselector">How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<!--class  have more precedence than glow css  -->
+<p class="CssClass">How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<div>
+<!--   important key word override all selector precedence -->
+<p class="CssClass">How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<p id="idselector">How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<p style="color:blue">How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+<p>How do CSS precedence/cascading rules work? How does the !important directive affect the rules?</p>
+</div>
+
+</body>
+</html>

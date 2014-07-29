@@ -1,0 +1,17 @@
+p{
+  color: red;
+}
+#idselector{
+  color: green;
+}
+.CssClass{
+  color: yellow;
+}
+
+.CssClass{
+  color: yellow;
+}
+
+div p{
+    color: #4C001F !important;
+}
