@@ -1,5 +1,40 @@
-@-moz-document url-prefix() 
-{ 
-        #inner_page_right #inner_right_fifth 
-        { padding:14px 0;} 
+div{
+color:white;
+}
+<!--->
+.exampleIE6and7and8 {
+
+    background-color:blue\9;
+	color:white;
+	font-size:20px;
+	font-style:italic;
+	text-align:center
+
+}
+
+@media screen and (-moz-images-in-menus:0) {
+    .exampleFF36andAbove {	
+	background-color:green;
+	color:white;
+	font-size:20px;
+	font-style:italic;
+	text-align:center
+	
+	}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .exampleChromeAndSafari {
+	background-color:red;
+	color:white;
+	font-size:20px;
+	font-style:italic;
+	text-align:center
+	
+	
+	}
+}
+p{
+    font-size:20px;	
+	text-align:center
+
 }

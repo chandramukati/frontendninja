@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link type="text/css" rel="stylesheet" href="Question2.css" media="all">
+</head>
 <body>
-
-<p>What is the name(s) of your browser?</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = 
-    "Name is " + navigator.appName +
-    "<br>Code name is " + navigator.appCodeName;
-}
-</script>
+<p>how to write browser specific css ?</p>
+<!-- List of CSS hacks – target specific browser(s) and browser versions  the class is define in css file -->
+<div class="exampleIE6and7and8"> IE Browser</div>
+<div class="exampleFF36andAbove"> FireFox Browser</div>
+<div class="exampleChromeAndSafari"> Chrome Browser</div>
 
 </body>
 </html>
