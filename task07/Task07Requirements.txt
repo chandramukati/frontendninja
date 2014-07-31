@@ -54,3 +54,8 @@ Objective is to pass all tests in the spec to ensure we have created exactly wha
 NOTE: Do not add and commit node_modules folder, it is not needed and can be installed back anytime.
 
 when you have package.json already having dev dependencies defined, and when you run npm install command all those modules are installed again if not present
+
+Summary:
+1) Complete the task07/js/counter.js file
+2) Run gulp command
+3) There shall be no failures
