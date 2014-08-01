@@ -64,6 +64,8 @@ index.html
 package.json
 gulpfile.js
 
+
+<--this is for connecting to git proxy not for Gulp, gulp need  path user variable (C:\Users\YourName\AppData\Roaming\npm;C:\Program Files\nodejs\  and run npm install -g gulp  )->
 @echo off
 set http_proxy=https://emial oruserid of domain :password@hjproxy.persistent.co.in:8080
 set https_proxy=https://:                                @hjproxy.persistent.co.in:8080
