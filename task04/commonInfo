@@ -1,0 +1,89 @@
+download node.js
+set path in env to bin
+
+download git client
+
+cd myprojects
+git clone https://github.com/tusharvjoshi/frontendninja
+cd frontendninja\task02
+mkdir final
+<Copy all files of task02 to final folder>
+cd final
+<make your awesome changes according to requiements>
+cd .. 
+git add final
+git commit -m "Adding final files to task02"
+git push
+
+
+cd projects
+git clone https://github.com/tushardemo/frontendninja
+(tushardemo is demo participants for demo purposes)
+cd frontendninja
+
+One time setting:
+cd frontendninja
+git remote add upstream https://github.com/tusharvjoshi/frontendninja
+
+To get updates from the source repository of tusharvjoshi
+git fetch upstream
+git merge upstream/master master
+git push
+
+
+
+Workflow for a web application development
+
+1) create a new project in task04 folder using the following commands
+
+- npm init
+- npm install --save-dev gulp
+- npm install --save-dev gulp-util
+- npm install --save-dev gulp-less
+- npm install --save-dev path
+- npm install --save-dev gulp-coffee
+- npm install --save-dev gulp-concat
+- npm install --save-dev gulp-uglify
+- npm install --save-dev gulp-livereload
+- npm install --save-dev tiny-lr
+
+2) Make folder structure like follows
+
+components
+  coffee
+    script.coffee
+  less
+    main.less
+  lib
+  scripts
+    common.js
+    page1.js
+css
+js
+index.html
+package.json
+gulpfile.js
+
+@echo off
+set http_proxy=https://emial oruserid of domain :password@hjproxy.persistent.co.in:8080
+set https_proxy=https://:                                @hjproxy.persistent.co.in:8080
+echo GIT proxy set.
+echo on
+
+
+You need to add the viewport meta tag to the <head> element, to ensure proper rendering and touch zooming on mobile devices.
+1)<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ or
+ <meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no">
+									 
+2)<img src="..." class="img-responsive" alt="Responsive image">
+3)scaffolding.less.
+4)Normalize.css for cross browers
+5)By wrapping any .table in .table-responsive class,
+6)HORIZONTAL FORM
+7)Supported Form Controls
+8)Bootstrap Responsive utilities
+
