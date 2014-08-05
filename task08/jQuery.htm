@@ -187,6 +187,7 @@ architecture of other <a href="http://en.wikipedia.org/wiki/Comparison_of_JavaSc
             // for each one of the header tags, create a new named anchor and insert it into
             // the header tag. Then add a new link to the list that points to the named anchor
             $("div:not([id=toctitle]) " + strWhichTag).each(function() {
+			    $(this).find('.mw-editsection').remove()	
                 $(this).html("<a name='bookmark" + cAnchorCount + "'></a>" + $(this).html());
                 oList.append($("<li><a href='#bookmark" + cAnchorCount++ + "'> " + $(this).text() + "</a></li>"));
             });
@@ -198,7 +199,7 @@ architecture of other <a href="http://en.wikipedia.org/wiki/Comparison_of_JavaSc
 	 
 	 
 <div id="toc" class="toc">
-<div id="toctitle">
+<div id="toctitle" >
 <h2>Contents</h2>
 <span class="toctoggle">&nbsp;[<a href="#" class="internal" id="togglelink">hide</a>]&nbsp;</span>
 <!-- Generate TOC here -->
