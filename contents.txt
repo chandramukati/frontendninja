@@ -159,3 +159,8 @@ Mozilla Firefox, Google Chrome, Internet Explorer
 
 List out technologies from builtwith.com
 https://builtwith.com
+
+KnockoutJS presentations
+https://speakerdeck.com/johnpapa/knockoutjs-teched-na-2012
+https://speakerdeck.com/scottmessinger/knockoutjs-lightning-talk
+https://speakerdeck.com/gregj/getting-started-with-knockout-dot-js
