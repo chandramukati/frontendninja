@@ -1,0 +1,190 @@
+01 800 209 2470 
+git config -l
+npm config list
+
+
+
+D:\myProject\frontendninja\task10>npm config list
+; cli configs
+registry = "https://registry.npmjs.org/"
+user-agent = "npm/1.4.14 node/v0.10.29 win32 ia32"
+
+; userconfig C:\Users\chandra_mukati\.npmrc
+http-proxy = "http://ptbc1.persistent.co.in:8080"
+https-proxy = "http://ptbc1.persistent.co.in:8080/"
+proxy = "http://ptbc1.persistent.co.in:8080/"
+registry = "https://registry.npmjs.org/"
+strict-ssl = false
+
+; builtin config undefined
+prefix = "C:\\Users\\chandra_mukati\\AppData\\Roaming\\npm"
+
+; node bin location = C:\Program Files\nodejs\\node.exe
+; cwd = D:\myProject\frontendninja\task10
+; HOME = C:\Users\chandra_mukati
+; 'npm config ls -l' to show all defaults.
+
+
+D:\myProject\frontendninja\task10>git config -l
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+pack.packsizelimit=2g
+help.format=html
+http.sslcainfo=/bin/curl-ca-bundle.crt
+sendemail.smtpserver=/bin/msmtp.exe
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+http.proxy=http://ptbc1.persistent.co.in:8080
+https.proxy=http://ptbc1.persistent.co.in:8080
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+core.hidedotfiles=dotGitOnly
+remote.origin.url=https://github.com/chandramukati/frontendninja
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+remote.upstream.url=https://github.com/tusharvjoshi/frontendninja
+remote.upstream.fetch=+refs/heads/*:refs/remotes/upstream/*
+
+D:\myProject\frontendninja\task10>
+
+
+content of .bowerrc
+
+{
+	"directory": "bower/bower_components",
+	"strict-ssl": false,
+	"proxy": "http://ptbc1.persistent.co.in:8080",
+	"https-proxy": "http://ptbc1.persistent.co.in:8080",
+	"directory": "Public/lib"
+}
+
+
+
+
+download node.js
+set path in env to bin
+
+download git client
+
+cd myprojects
+git clone https://github.com/tusharvjoshi/frontendninja
+cd frontendninja\task02
+mkdir final
+<Copy all files of task02 to final folder>
+cd final
+<make your awesome changes according to requiements>
+cd .. 
+git add final
+git commit -m "Adding final files to task02"
+git push
+
+
+cd projects
+git clone https://github.com/tushardemo/frontendninja
+(tushardemo is demo participants for demo purposes)
+cd frontendninja
+
+One time setting:
+cd frontendninja
+git remote add upstream https://github.com/tusharvjoshi/frontendninja
+
+To get updates from the source repository of tusharvjoshi
+git fetch upstream
+git merge upstream/master master
+git push
+
+
+
+Workflow for a web application development
+
+1) create a new project in task04 folder using the following commands
+
+npm is the package manager for node
+npm uses package manager only for node
+- npm init
+- npm install --save-dev gulp
+- npm install --save-dev gulp-util
+- npm install --save-dev gulp-less
+- npm install --save-dev path
+- npm install --save-dev gulp-coffee
+- npm install --save-dev gulp-concat
+- npm install --save-dev gulp-uglify
+- npm install --save-dev gulp-livereload
+- npm install --save-dev tiny-lr
+- npm install -g http-server
+
+2) Make folder structure like follow
+
+components
+  coffee
+    script.coffee
+  less
+    main.less
+  lib
+  scripts
+    common.js
+    page1.js
+css
+js
+index.html
+package.json
+gulpfile.js
+
+
+<--this is for connecting to git proxy not for Gulp, gulp need  path user variable (C:\Users\YourName\AppData\Roaming\npm;C:\Program Files\nodejs\  and run npm install -g gulp  )->
+@echo off
+set http_proxy=https://emial oruserid of domain :password@hjproxy.persistent.co.in:8080
+set https_proxy=https://:                                @hjproxy.persistent.co.in:8080
+echo GIT proxy set.
+echo on
+
+
+You need to add the viewport meta tag to the <head> element, to ensure proper rendering and touch zooming on mobile devices.
+1)<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ or
+ <meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no">
+									 
+2)<img src="..." class="img-responsive" alt="Responsive image">
+3)scaffolding.less.
+4)Normalize.css for cross browers
+5)By wrapping any .table in .table-responsive class,
+6)HORIZONTAL FORM
+7)Supported Form Controls
+8)Bootstrap Responsive utilities
+
+RequreJS,CommonJS
+http://www.integralist.co.uk/posts/beginners-guide-to-amd-and-requirejs/
+Just Abive the closing Body <script data-main="Assets/Scripts/main" src="Assets/Scripts/Require.js"></script>
+
+
+npm config set proxy http://proxy.company.com:8080
+npm config set https-proxy http://proxy.company.com:8080
+
+
+npm config set proxy http://chandra_mukati%40persistent.co.in:Good%231234@hjproxy.persistent.co.in:8080
+npm config set https-proxy http://chandra_mukati%40persistent.co.in:Good%231234@hjproxy.persistent.co.in:8080
+
+
+npm config set http_proxy http://chandra_mukati%40persistent.co.in:Good%231234@hjproxy.persistent.co.in:8080
+
+ $("p").each(function() {		
+   this object is p here 
+        });
+		
+<a href="link after image click to go"><img src="images/techforum1.jpg" alt="image" /></a>
+
+$(this).find('#hello').remove()	
+
+npm install -g bower
