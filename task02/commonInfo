@@ -188,3 +188,22 @@ npm config set http_proxy http://chandra_mukati%40persistent.co.in:Good%231234@h
 $(this).find('#hello').remove()	
 
 npm install -g bower
+
+
+
+
+	<div class="nav">
+			<ul>
+				<li> <a href="#" > <img src="images/tool_icon.png" width="40" height="38" alt=""/> <br>COST OPTIMIZATION </a></li>
+				<li> <a href="#"> <img src="images/Graph_Icon2.png" width="40" height="38" alt=""/><br>MANAGING GROWTH</a> </li>
+				<li> <a href="#"> <img src="images/Star_icon.png" width="40" height="38" alt=""/><br>MARKET DIFFERENTIATION</a></li>
+				<li> <a href="#"> <img src="images/$_icon.png" width="40" height="38" alt=""/><br>MINIMAL INVESTIMENT</a> </li>
+				
+			</ul>
+    </div>
+    
+     .nav{  width:1280px; height:120px; margin:0;}
+ .nav ul{   height:120px; background-color:#414042;border:0px solid red;  padding:0 60px 0 60px;margin:0px;}
+ .nav ul li  {     float: left; display: block; text-align: center; border:0px solid blue;}
+ .nav li a{color: white;  width: 237px; display: block; text-decoration:none; padding: 28px 0 28px 0;}
+ .nav li a:hover {background-color:#262527;}
